@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rentzy</string>
+    <string name="rentzy">rentzy</string>
+    <string name="rent_it_lik">rent it like you own it</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Create a New Account</string>
+</resources>

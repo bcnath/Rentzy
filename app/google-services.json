@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "323611108586",
+    "firebase_url": "https://rentzyregisterlogin.firebaseio.com",
+    "project_id": "rentzyregisterlogin",
+    "storage_bucket": "rentzyregisterlogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323611108586:android:7307eac6c11859b3",
+        "android_client_info": {
+          "package_name": "bworks.rentzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323611108586-ujgbv5qfch28a5b4jf8vr3illt4gc597.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3wAeZldH-yltXoONTVXVAq7NKahzsoL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

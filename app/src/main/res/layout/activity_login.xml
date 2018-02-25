@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="bworks.rentzy.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EB5757"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/logo"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="119dp"
+            android:text="@string/rentzy"
+            android:textAppearance="@style/rentzy"
+            android:gravity="center_horizontal"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="160dp"
+            android:text="@string/rent_it_lik"
+            android:textAppearance="@style/rent_it_lik"
+            android:gravity="center_horizontal"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="298dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="242dp"
+            android:background="@drawable/rectangle1"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="259dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="240dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:hint="Username"
+            android:inputType="text"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="298dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="298dp"
+            android:background="@drawable/rectangle1"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="259dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="298dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="298dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="366dp"
+            android:background="@drawable/rectangle2"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="380dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="138dp"
+            android:text="@string/signin"
+            android:textAppearance="@string/signin"
+            android:gravity="center_horizontal"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="298dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="578dp"
+            android:background="@drawable/rectangle3"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="177dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="592dp"
+            android:text="@string/signup"
+            android:textAppearance="@string/signup"
+            android:gravity="center_horizontal"
+            />
+    </RelativeLayout>
+
+    </RelativeLayout>
